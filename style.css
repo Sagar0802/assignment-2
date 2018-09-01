@@ -3,12 +3,13 @@ body{
     clear: both;
 }
 header{
-    background-color: green;
-    padding: 20px;
-    color: #fff;
+    background-color: green;/*setting header background color to green*/
+    padding: 20px;/*setting inner space of 20px*/
+    color: #fff;/*setting white as text color*/
 }
+/*changes to be happen when screen is resized to max-width of 450px*/
 @media(max-width:450px){
     header{
-        background-color: blue;
+        background-color: blue;/*change background color of header part to blue when window screen is resized to max-width of 450px*/
     }
 }
