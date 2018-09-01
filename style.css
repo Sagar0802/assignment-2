@@ -1,0 +1,14 @@
+/* clearing the unnecessary spaces of body */
+body{
+    clear: both;
+}
+header{
+    background-color: green;
+    padding: 20px;
+    color: #fff;
+}
+@media(max-width:450px){
+    header{
+        background-color: blue;
+    }
+}
